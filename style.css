@@ -13,29 +13,32 @@
 
 /* Start of landing page */
 
-/* * {
+* {
     border: solid black 1px;;
-} */
+}
 
 body#landing-page {
-    display: flex;
-    flex-flow: column nowrap;
-    width: 860px;
-    margin: auto;
+    /* width: 860px; */
+    margin: 0 auto;
     font-family: "Roboto", sans-serif;
 }
 
 /* ------ HEADER */
 .header, .footer{
     background-color: #babab0;
-    padding: 16px;
+    padding: 16px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    width: 860px;
 }
 
 .footer {
-    justify-content: center;
     align-items: center;
     color: #f9faf8;
     font-size: 18px;
@@ -57,29 +60,52 @@ body#landing-page {
     gap: 16px;
 }
 
-/* ------ BODY1 */
+/* ------ BODY1 HERO */
 .body1 {
     background-color: #babab0;
     height: 400px;
     display: flex;
     flex-flow: row;
     align-items: center;
+    justify-content: center;
+}
+.container-body1 {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 60px;
+    width: 860px;
 }
 .hero-text {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
     line-height: 1;
+    margin: 0;
+}
+.left {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.right {
+    flex: 1;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
-/* ------ BODY2 */
+/* ------ BODY2 ITEMS */
 .body2 {
     padding: 40px;
 }
 .body2 h2 {
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937;
+    color: #37331f;
     text-align: center;
 }
 .container {
@@ -94,17 +120,26 @@ body#landing-page {
 }
 .item img {
     border-radius: 20px;
+    border: solid 5px #37331f;;
     width: 150px;
     height: 150px;
 }
 
-/* ------ BODY3 */
+/* ------ BODY3 QUOTE*/
 .body3 {
     background-color: #e5e7eb;
     color: #1f2937;
     padding: 20px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-quote {
+    width: 800px;
     display: flex;
     flex-flow: column nowrap;
+    gap: 20px;
 }
 .quote  {
     font-size: 36px;
@@ -114,9 +149,10 @@ body#landing-page {
 .quotee {
     font-size: 24px;
     font-weight: bold;
+    align-self: flex-end;
 }
 
-/* ------ BODY4 */
+/* ------ BODY4 CALL TO ACTION */
 .body4 {
     display: flex;
     justify-content: center;
@@ -127,14 +163,29 @@ body#landing-page {
 .container-cta {
     display: flex;
     flex-flow: row;
+    align-items: center;
     background-color: #cf653F;
-    padding: 20px 40px;
+    padding: 40px 80px;
     border-radius: 20px;
+    gap: 40px;
 }
 
 .text-cta {
-    color: #f9faf8;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
 }
+
+.text-cta h2 {
+    color: #f9faf8;
+    margin: 0;
+}
+
+.text-cta p {
+    color: #e5e7eb;
+    margin: 0;
+}
+
 
 /* ------ other */
 button {
