@@ -1,0 +1,14 @@
+body#recipe {
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    a {
+        color: brown;
+    }
+
+    h2 {
+        background-color: black;
+        color: white;
+    }
+]

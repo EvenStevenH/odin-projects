@@ -1,3 +1,3 @@
-# Recipes
+# Odin Projects
 Hello world, hello Odin!
-This is my first project where I build a basic website about recipes. I'll be using HTML and more!
+This is my tentative repo for projects. I'm using HTML and more!
