@@ -3,9 +3,7 @@ body#recipe {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    a {
-        color: brown;
-    }
+    a {color: brown;   }
 
     h2 {
         background-color: black;
