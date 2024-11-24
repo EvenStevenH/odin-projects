@@ -13,9 +13,9 @@
 
 /* Start of landing page */
 
-* {
+/* * {
     border: solid black 1px;;
-}
+} */
 
 body#landing-page {
     /* width: 860px; */
@@ -25,7 +25,7 @@ body#landing-page {
 
 /* ------ HEADER */
 .header, .footer{
-    background-color: #babab0;
+    background-color: #4d4843;
     padding: 16px 0px;
     display: flex;
     justify-content: center;
@@ -62,7 +62,7 @@ body#landing-page {
 
 /* ------ BODY1 HERO */
 .body1 {
-    background-color: #babab0;
+    background-color: #4d4843;
     height: 400px;
     display: flex;
     flex-flow: row;
@@ -79,7 +79,6 @@ body#landing-page {
 .hero-text {
     font-size: 48px;
     font-weight: 900;
-    color: #f9faf8;
     line-height: 1;
     margin: 0;
 }
@@ -89,6 +88,7 @@ body#landing-page {
     flex-flow: column nowrap;
     align-items: flex-start;
     justify-content: center;
+    color: #f9faf8;
 
 }
 .right {
@@ -120,15 +120,16 @@ body#landing-page {
 }
 .item img {
     border-radius: 20px;
-    border: solid 5px #37331f;;
+    border: solid 5px #cf653F;;
     width: 150px;
     height: 150px;
+    filter: sepia(80%);
 }
 
 /* ------ BODY3 QUOTE*/
 .body3 {
-    background-color: #e5e7eb;
-    color: #1f2937;
+    background-color: #dbdad3;
+    color: #37331f;
     padding: 20px;
     height: 300px;
     display: flex;
