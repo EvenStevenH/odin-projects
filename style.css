@@ -1,4 +1,4 @@
-body#recipe {
+/* body#recipe {
     h1 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -9,4 +9,145 @@ body#recipe {
         background-color: black;
         color: white;
     }
-]
+} */
+
+/* Start of landing page */
+
+/* * {
+    border: solid black 1px;;
+} */
+
+body#landing-page {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 860px;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+/* ------ HEADER */
+.header, .footer{
+    background-color: #babab0;
+    padding: 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.header ul {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+/* ------ BODY1 */
+.body1 {
+    background-color: #babab0;
+    height: 400px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    line-height: 1;
+}
+
+/* ------ BODY2 */
+.body2 {
+    padding: 40px;
+}
+.body2 h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+}
+.item {
+    max-width: 150px;
+}
+.item img {
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+/* ------ BODY3 */
+.body3 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.quote  {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.quotee {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* ------ BODY4 */
+.body4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.container-cta {
+    display: flex;
+    flex-flow: row;
+    background-color: #cf653F;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.text-cta {
+    color: #f9faf8;
+}
+
+/* ------ other */
+button {
+    background-color: #cf653F;
+    color: #f9faf8;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.signup1 {
+    border: none;
+}
+.signup2 {
+    border: solid 4px #f9faf8;
+}
+
